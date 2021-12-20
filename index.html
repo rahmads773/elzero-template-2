@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gasper template2</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!-- start header -->
+    <header>
+      <div class="container">
+        <a href="#"><img src="img/logo_small.png" alt="logo" /></a>
+        <nav>
+          <i class="bi bi-list toggle-menu" id="toggle-menu"></i>
+          <ul id="ul">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="icon-form">
+            <i class="bi bi-search" id="search"></i>
+          </div>
+        </nav>
+        <!-- start search -->
+        <div class="search" id="search-screen">
+          <i class="bi bi-x-circle-fill cross" id="cross"></i>
+          <form>
+            <input type="text" placeholder="Search..." />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <!-- end serach -->
+      </div>
+    </header>
+    <!-- end header -->
+    <!-- start landing -->
+    <div class="landing" id="landing">
+      <div class="text">
+        <div class="content">
+          <h2>
+            Hello World! <br />
+            We Are Gasper We Make Art.
+          </h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+            Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+        </div>
+      </div>
+      <i class="bi bi-chevron-left change-background" id="left-arrow"></i>
+      <i class="bi bi-chevron-right change-background" id="right-arrow"></i>
+      <ul class="bullets" id="bullets_list">
+        <li class="bullet active"></li>
+        <li class="bullet"></li>
+        <li class="bullet"></li>
+      </ul>
+    </div>
+    <!-- end landing -->
+    <!-- start services -->
+    <div class="services" id="services">
+      <div class="container">
+        <div class="main-heading">
+          <h2>Services</h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+        </div>
+        <div class="services-content">
+          <!-- box1 -->
+          <div class="serv-box">
+            <i class="bi bi-laptop"></i>
+            <div class="text">
+              <h3>Vorem amet intuitive</h3>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam.
+              </p>
+            </div>
+          </div>
+           <!-- box2 -->
+           <div class="serv-box">
+            <i class="bi bi-gear-fill"></i>
+            <div class="text">
+              <h3>Vorem amet intuitive</h3>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam.
+              </p>
+            </div>
+          </div>
+            <!-- box3 -->
+            <div class="serv-box">
+              <i class="bi bi-pencil-fill"></i>
+              <div class="text">
+                <h3>Vorem amet intuitive</h3>
+                <p>
+                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                  Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                  Curabitur aliquet quam.
+                </p>
+              </div>
+            </div>
+            <!-- box4 -->
+            <div class="serv-box">
+              <i class="bi bi-camera2"></i>
+              <div class="text">
+                <h3>Vorem amet intuitive</h3>
+                <p>
+                  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                  Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                  Curabitur aliquet quam.
+                </p>
+              </div>
+            </div>
+        </div>
+      </div>
+      </div>
+    <!-- end services -->
+    <!-- start design -->
+    <div class="design">
+      <div class="image">
+        <img src="img/telephone-intelligent.png" alt="mobile">
+      </div>
+      <div class="text">
+        <h2>OUR DESIGN COMES WITH...</h2>
+        <ul>
+          <li> &#128187;  Responsive Design</li>
+          <li> &#128187;  Modern And Clean Design</li>
+          <li> &#128187;  Clean Code</li>
+          <li> &#128187;  Browser Friendly</li>
+        </ul>
+      </div>
+    </div>
+    <!-- end design -->
+    <!-- start portfolio -->
+    <div class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="main-heading">
+        <h2>Portfolio</h2>
+        <p>
+          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+          Mauris blandit aliquet elit, eget tincidunt.
+        </p>
+      </div>
+      <ul class="shuffle" id="shuffle">
+        <li class="active-shuffle" id="all">All</li>
+        <li data-cat =".app" id="app">App</li>
+        <li data-cat =".photo" id="photo">Photo</li>
+        <li data-cat =".web" id="web">Web</li>
+        <li data-cat =".print" id="print">Print</li>
+      </ul>
+    </div>
+    <div class="portfolio-container" id="profilio-container">
+      <!-- box1 -->
+<div class="box app">
+<img src="img/shuffle-01.jpg" alt="">
+<div class="caption">
+  <h4>Awesome Image</h4>
+  <p>Photography</p>
+</div>
+</div>
+<!-- box2 -->
+<div class="box print">
+  <img src="img/shuffle-02.jpg" alt="">
+  <div class="caption">
+    <h4>Awesome Image</h4>
+    <p>Photography</p>
+  </div>
+  </div>
+  <!-- box3 -->
+  <div class="box photo">
+    <img src="img/shuffle-03.jpg" alt="">
+    <div class="caption">
+      <h4>Awesome Image</h4>
+      <p>Photography</p>
+    </div>
+    </div>
+    <!-- box4 -->
+    <div class="box print">
+      <img src="img/shuffle-04.jpg" alt="">
+      <div class="caption">
+        <h4>Awesome Image</h4>
+        <p>Photography</p>
+      </div>
+      </div>
+      <!-- box5 -->
+      <div class="box app">
+        <img src="img/shuffle-05.jpg" alt="">
+        <div class="caption">
+          <h4>Awesome Image</h4>
+          <p>Photography</p>
+        </div>
+        </div>
+        <!-- box6 -->
+        <div class="box photo">
+          <img src="img/shuffle-06.jpg" alt="">
+          <div class="caption">
+            <h4>Awesome Image</h4>
+            <p>Photography</p>
+          </div>
+          </div>
+<!-- box7 -->
+<div class="box web">
+  <img src="img/shuffle-07.jpg" alt="">
+  <div class="caption">
+    <h4>Awesome Image</h4>
+    <p>Photography</p>
+  </div>
+  </div>
+  <!-- box8 -->
+  <div class="box web">
+    <img src="img/shuffle-08.jpg" alt="">
+    <div class="caption">
+      <h4>Awesome Image</h4>
+      <p>Photography</p>
+    </div>
+    </div>
+   
+    </div>
+    <a href="#" class="more" id="more"  >more ...</a>
+    </div>
+    <!-- end portfolio -->
+    <!-- start video -->
+    <div class="video">
+      <video src="video/awesome-video.mp4" autoplay muted loop></video>
+      <div class="text">
+        <h2>SUPER AWESOME VIDEO HERE</h2>
+        <p>Its All You Need</p>
+        <button>see more</button>
+      </div>
+    </div>
+    <!-- end video -->
+    <!-- start about -->
+    <div class="about" id="about">
+      <div class="container">
+        <div class="main-heading">
+          <h2>About</h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+        </div>
+        <img src="img/device.png" alt="devices">
+      </div>
+    </div>
+    <!-- end about -->
+    <!-- start stats -->
+    <div class="stats">
+      <div class="container">
+        <div class="box">
+          <i class="bi bi-cup"></i>
+          <div class="number">1.236</div>
+          <p>Coffee Drinks</p>
+        </div>
+        <div class="box">
+          <i class="bi bi-folder"></i>
+          <div class="number">256</div>
+          <p>Completed Projects</p>
+        </div>
+        <div class="box">
+          <i class="bi bi-envelope"></i>
+          <div class="number">1.743</div>
+          <p>Mail Sent</p>
+        </div>
+        <div class="box">
+          <i class="bi bi-award"></i>
+          <div class="number">17</div>
+          <p>Awards Received</p>
+        </div>
+      </div>
+    </div>
+    <!-- end stats -->
+    <div class="our-skills">
+      <div class="container">
+        <div class="testimonials">
+         <h3>testimonials</h3>
+         <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+         <div id="slider">
+ <!-- box1 -->
+ <div class="content">
+  <img src="img/skills-01.jpg" alt="">
+  <div class="text">
+   Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+   <p>John Doe, CEO</p>
+  </div>
+</div>
+<!-- box2 -->
+<div class="content">
+ <img src="img/skills-02.jpg" alt="">
+ <div class="text">
+  Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
+  <p>John Doe, CEO</p>
+ </div>
+</div>
+         </div>
+        
+        <ul class="bullets">
+          <li class="bullet active-bullet"></li>
+          <li class="bullet"></li>
+          <li class="bullet"></li>
+        </ul>
+
+        </div>
+        <div class="skills">
+<h3>skills</h3>
+<p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+<!-- first progress -->
+<div class="progress-holder">
+  <h4>adobe</h4>
+  <div class="prog">
+    <span style="width:90%" data-progress="90%"></span>
+  </div>
+</div>
+<!-- second progress -->
+<div class="progress-holder">
+  <h4> HTML & CSS</h4>
+  <div class="prog">
+    <span style="width:85%" data-progress="85%"></span>
+  </div>
+</div>
+<!-- third progress -->
+<div class="progress-holder">
+  <h4>javascript</h4>
+  <div class="prog">
+    <span style="width:80%" data-progress="80%"></span>
+  </div>
+</div>
+<!-- forth progress -->
+<div class="progress-holder">
+  <h4>php</h4>
+  <div class="prog">
+    <span style="width:90%" data-progress="90%"></span>
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+    <!-- start our-skills -->
+  <!-- start quote -->
+  <div class="quote">
+    <div class="container">
+      <i class="bi bi-quote"></i>
+      <q>What doesn't kill you makes you stronger.</q>
+      <i class="bi bi-quote"></i>
+      <span>Octavia Blake</span>
+    </div>
+  </div>
+  <!-- end quoted -->
+  <!-- start pricing -->
+  <div class="pricing" id="pricing">
+    <div class="container">
+      <div class="main-heading">
+        <h2>PRICING</h2>
+        <p>
+          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+          Mauris blandit aliquet elit, eget tincidunt.
+        </p>
+      </div>
+      <div class="plans">
+        <!-- plan1 -->
+        <div class="plan">
+          <div class="head">
+            <h3>basic</h3>
+            <span>19</span>
+          </div>
+          <ul>
+            <li>Feature No 1</li>
+            <li>Extra Feature</li>
+            <li>Extra Feature No 2</li>
+            <li>Feature</li>
+          </ul>
+          <div class="foot">
+            <a href="#">buy now</a>
+          </div>
+        </div>
+        <!-- plan 2 -->
+        <div class="plan">
+          <div class="head">
+            <h3>premium</h3>
+            <span>29</span>
+          </div>
+          <ul>
+            <li>Feature No 1</li>
+            <li>Extra Feature</li>
+            <li>Extra Feature No 2</li>
+            <li>Feature</li>
+          </ul>
+          <div class="foot">
+            <a href="#">buy now</a>
+          </div>
+        </div>
+        <!-- plan3 -->
+        <div class="plan">
+          <div class="head">
+            <h3>pro</h3>
+            <span>39</span>
+          </div>
+          <ul>
+            <li>Feature No 1</li>
+            <li>Extra Feature</li>
+            <li>Extra Feature No 2</li>
+            <li>Feature</li>
+          </ul>
+          <div class="foot">
+            <a href="#">buy now</a>
+          </div>
+        </div>
+        <!-- plan4 -->
+        <div class="plan">
+          <div class="head">
+            <h3>platinum</h3>
+            <span>49</span>
+          </div>
+          <ul>
+            <li>Feature No 1</li>
+            <li>Extra Feature</li>
+            <li>Extra Feature No 2</li>
+            <li>Feature</li>
+          </ul>
+          <div class="foot">
+            <a href="#">buy now</a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-us">
+        <p>Contact us if you have special request</p>
+        <a href="#">Contact Us</a>
+      </div>
+    </div>
+  </div>
+  <!-- end pricing -->
+  <!-- start  subscribe -->
+  <div class="subscribe">
+    <div class="container">
+      <form action="email">
+        <i class="bi bi-envelope"></i>
+        <input type="email" name="email" id="email" placeholder="enter you email">
+       <input type="submit" value="subscribe">
+      </form>
+      <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blan dit aliquet elit, eget tincidunt.</p>
+    </div>
+  </div>
+  <!-- end subscribe -->
+  <!-- start contact -->
+<div class="contact">
+  <div class="container">
+    <div class="main-heading">
+      <h2>contact us</h2>
+      <p>
+        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+        Mauris blandit aliquet elit, eget tincidunt.
+      </p>
+    </div>
+    <div class="content">
+      <form >
+        <input type="text" name="text" placeholder="Your name" class="main-input">
+      <input type="email" name="email"placeholder="Your email" class="main-input">
+            <textarea name="message"placeholder="Your message" class="main-input"></textarea>
+        <input type="submit" value="send message">
+            </form>
+            <div class="info">
+        <h4>get in touch</h4>
+        <span class="phone">+00 123.456.789</span>
+        <span class="phone">+00 123.456.789</span>
+        <h4>where we are</h4>
+        <address>
+          Awesome Address 17 <br>
+        New York, NYC <br>
+        123-4567-890 <br>
+        USA
+        </address>
+            </div>
+    </div>
+    
+  </div>
+</div>
+  <!-- end contact -->
+  <!-- start footer -->
+  <footer>
+    <div class="container">
+      <img src="img/logo_small.png" alt="logo">
+      <p> we are social</p>
+      <i class="bi bi-facebook"></i>
+      <i class="bi bi-twitter"></i>
+      <i class="bi bi-house-door-fill"></i>
+      <i class="bi bi-linkedin"></i>
+      <p class="copyright">&copy; 2021 <span>Gasper</span> All Rights Reserved</p>
+    </div>
+    
+  </footer>
+  <!-- end footer -->
+  </body>
+</html>

@@ -815,7 +815,7 @@ opacity: 1;
 .quote {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
-  background: url(/img/quote.jpg);
+  background: url(img/quote.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;

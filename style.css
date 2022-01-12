@@ -3,7 +3,7 @@
 :root {
   --main-color: #83ffe8;
   --secondary-color: #207299;
-  --transparent-color: rgba(132, 255, 249, 0.589);
+  --transparent-color: rgba(22, 179, 171, 0.719);
   --section-padding: 100px;
   --paragraph-color: #777;
 }
@@ -303,6 +303,7 @@ header .icon-form i:hover {
     max-width: 100%;
   }
 }
+
 .landing .text .content {
   max-width: 500px;
 }
@@ -313,6 +314,7 @@ header .icon-form i:hover {
   line-height: 1.8;
   margin-bottom: 20px;
 }
+
 .landing .text .content p {
   color: rgb(0, 0, 0);
   font-size: 15px;
@@ -784,6 +786,7 @@ opacity: 1;
   background-color: var(--secondary-color);
   position: absolute;
   height: 30px;
+  transition:  2s;
 }
 .our-skills .skills .progress-holder .prog span::before {
   content: attr(data-progress);
@@ -815,7 +818,7 @@ opacity: 1;
 .quote {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
-  background: url(img/quote.jpg);
+  background: url(/img/quote.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;
